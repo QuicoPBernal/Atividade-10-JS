@@ -1,0 +1,49 @@
+body {
+  background: #4c1130
+}
+
+#myForm {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  background-color: #d9d2e9;
+}
+
+#myForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#myForm input[type="text"],
+#myForm input[type="email"],
+#myForm input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#myForm button[type="submit"] {
+  background-color: #c27ba0;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
